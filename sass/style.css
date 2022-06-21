@@ -1,0 +1,96 @@
+.header__titulo {
+  background-color: #020220;
+  padding: 10px;
+  margin: 30px;
+  /* MAP GET */
+  text-align: center;
+}
+
+.header div h1 {
+  color: #fff4f4;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  font-weight: 700;
+}
+
+.header div h1:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.header__imagen, .header__imagen--large {
+  background-color: #020220;
+  padding: 10px;
+  margin: 30px;
+  /* MAP GET */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 2px solid #0c0505;
+}
+
+.header__imagen p, .header__imagen--large p {
+  color: white;
+  font-weight: 700;
+}
+
+/* EXTEND */
+.header__imagen--large {
+  font-size: large;
+}
+
+main div {
+  background-color: #020220;
+  padding: 10px;
+  margin: 30px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main div p {
+  color: white;
+  font-size: large;
+}
+
+main div table {
+  color: white;
+}
+
+section div h2 {
+  color: white;
+  margin: 10px;
+}
+
+section div form {
+  border: solid white 2px;
+  color: white;
+}
+
+.estilo__prin {
+  /* MIXING */
+  background-color: #020220;
+  padding: 10px;
+  margin: 30px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.estilo__prin--center {
+  /* MIXING */
+  background-color: #020220;
+  padding: 10px;
+  margin: 30px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
